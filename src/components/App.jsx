@@ -48,7 +48,9 @@ export const App = () => {
     }
   };
 
-  const loadMore = () => setPage(page + 1);
+  const loadMore = () => {
+    setPage(page + 1);
+  };
 
   return (
     <Container>
